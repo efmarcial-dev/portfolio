@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Eduardo",
+  lastName: "Fajardo",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Español"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -55,7 +55,7 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Eduardo, a software engineer at <InlineCode>NOVA</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -81,8 +81,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
+        Eduardo is an American software engineer with a passion for transforming complex challenges
+        into simple, elegant solutions. His work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
     ),
@@ -92,9 +92,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "NOVA",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Founder | CEO",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
