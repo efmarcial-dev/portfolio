@@ -55,7 +55,7 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Eduardo, a software engineer at <InlineCode>NOVA</InlineCode>, where I craft intuitive
+      I'm Eduardo, Founder | CEO of <InlineCode>NOVA</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -138,8 +138,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "North Carolina State University",
+        description: <>Computer Science</>,
       },
       {
         name: "Build the Future",
