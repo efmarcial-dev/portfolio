@@ -52,11 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Turning Ideas Into Products That Scale</>,
   subline: (
     <>
-      I'm Eduardo, Founder | CEO of <InlineCode>NOVA</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Eduardo — Founder & CEO of <InlineCode>NOVA</InlineCode>, a product studio helping startups and enterprises <br /> design, build, and launch exceptional software. We specialize in full-stack development and intuitive user experiences that scale. After hours, I experiment with my own projects and ideas.
+
     </>
   ),
 };
